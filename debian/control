@@ -1,0 +1,12 @@
+Source: ros-indigo-rb1-base-control
+Section: misc
+Priority: extra
+Maintainer: Roberto Guzmán <rguzman@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/rb1_base_control
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rb1-base-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-controller-manager, ros-indigo-controller-manager-msgs, ros-indigo-diff-drive-controller, ros-indigo-joint-state-controller, ros-indigo-robot-state-publisher, ros-indigo-twist-mux
+Description: The rb1_base_control package
