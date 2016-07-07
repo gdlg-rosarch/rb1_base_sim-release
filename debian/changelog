@@ -1,0 +1,12 @@
+ros-indigo-rb1-base-gazebo (1.0.1-0trusty) trusty; urgency=high
+
+  * removing builds from package xml
+  * Edited xml packages and Cmake lists
+  * changed control yaml and launch to use the diff_drive_controller - allows diff drive control using ros control and velocity interface
+  * corrected pad file
+  * added packages coming from rb1_sim
+  * Contributors: AliquesTomas, rguzman, rguzman1
+
+ -- Roberto Guzmán <rguzman@robotnik.es>  Wed, 06 Jul 2016 22:00:00 -0000
+
+
