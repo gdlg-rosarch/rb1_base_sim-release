@@ -1,0 +1,12 @@
+Source: ros-indigo-rb1-base-sim
+Section: misc
+Priority: extra
+Maintainer: Roberto Guzmán <rguzman@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/rb1_base_sim
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rb1-base-sim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-rb1-base-2dnav, ros-indigo-rb1-base-control, ros-indigo-rb1-base-gazebo, ros-indigo-rb1-base-purepursuit
+Description: The rb1_base_sim metapackage
