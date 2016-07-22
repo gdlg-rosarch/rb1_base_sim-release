@@ -1,0 +1,23 @@
+ros-kinetic-rb1-base-2dnav (1.0.2-0xenial) xenial; urgency=high
+
+
+
+ -- Roberto Guzmán <rguzman@robotnik.es>  Thu, 21 Jul 2016 22:00:00 -0000
+
+ros-kinetic-rb1-base-2dnav (1.0.1-0xenial) xenial; urgency=high
+
+  * removing builds from package xml
+  * Adding 2dnav dependencies
+  * Adding 2dnav dependencies
+  * Adding move base dependencies
+  * Adding std msgs dependencies
+  * Added message runtime dependencies
+  * Edited xml packages and Cmake lists
+  * commented param footprint options
+  * added teb cfg files and launch
+  * added packages coming from rb1_sim
+  * Contributors: AliquesTomas, rguzman
+
+ -- Roberto Guzmán <rguzman@robotnik.es>  Wed, 06 Jul 2016 22:00:00 -0000
+
+
