@@ -2,6 +2,9 @@
 Changelog for package rb1_base_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2016-07-22)
+------------------
+
 1.0.1 (2016-07-07)
 ------------------
 * removing builds from package xml
