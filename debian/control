@@ -1,0 +1,12 @@
+Source: ros-kinetic-rb1-base-2dnav
+Section: misc
+Priority: extra
+Maintainer: Roberto Guzmán <rguzman@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/rb1_base_2dnav
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rb1-base-2dnav
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-amcl, ros-kinetic-gmapping, ros-kinetic-map-server, ros-kinetic-message-runtime, ros-kinetic-move-base, ros-kinetic-robot-pose-ekf, ros-kinetic-rviz, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: This package configures the move_base stack and makes use of the gmapping and amcl algorithms to move the rb1_base robot
